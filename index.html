@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCityRP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Icona server pagina google-->
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/assets/images/logo.ico" type="image/x-icon">
+<!-- Per dispositivi Apple -->
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+</head>
+
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Benvenuti su <span class="server-name">NovaCityRP</span></h1>
+            </div>
+        </div>
+    </header>
+        <nav>
+            <div class="nav-header">
+                <img src="assets/images/logo.png" alt="Server Logo" class="nav-logo">
+                <h2>NovaCityRP</h2>
+            </div>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#rules"><i class="fas fa-book"></i> Regole</a></li>
+                <li><a href="#staff"><i class="fas fa-users"></i> Staff</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Galleria</a></li>
+                <li><a href= donations.html><i class="fa-solid fa-hand-holding-dollar"></i> Pacchetti donazione</a></li>
+                <li><a href="https://discord.gg/link" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sezione Server Info (Esistente) -->
+        <section id="home" class="server-info">
+            <div class="server-ip">
+                <p>IP del server: <strong id="server-ip">cfx.re/join/abc123</strong></p>
+                <p>Giocatori online: <span id="players-online">0</span>/64</p>
+            </div>
+            <a href="https://discord.gg/tuoinvito" class="discord-btn">
+                <i class="fab fa-discord"></i> Unisciti al Discord
+            </a>
+        </section>
+
+        <!-- Sezione Regole -->
+        <section id="rules" class="rules-section">
+        <div class="rules-container">
+        <h2 class="rules-title"><i class="fas fa-book"></i> Regole del Server</h2>
+        <div class="rules-box">
+            <ol class="rules-list">
+                <li>Nessun cheat/mod illegale.</li>
+                <li>Rispetto verso tutti i giocatori.</li>
+                <li>No metagaming (uso di informazioni OOC in RP).</li>
+                <li>Voce obbligatoria per il roleplay.</li>
+                <li>Segui le istruzioni dello staff.</li>
+            </ol>
+            <div class="rules-warning">
+                <p><i class="fas fa-exclamation-triangle"></i> Violazioni delle regole = ban dal server.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Nuova Sezione: Staff -->
+        <section id="staff" class="staff-section">
+            <h2><i class="fas fa-users"></i> Il Nostro Staff</h2>
+            <div class="staff-grid">
+                <!-- Founder -->
+                <div class="staff-card">
+                    <div class="staff-icon"><i class="fas fa-crown"></i></div>
+                    <p class="staff-role">Founder</p>
+                    <h3>Xdead098</h3>
+                    <p class="staff-desc">Gestione genarale del server</p>
+                </div>
+                <!-- Developer --> 
+                <div class="staff-card">
+                    <div class="staff-icon"><i class="fas fa-crown"></i></div>
+                    <p class="staff-role">Developer</p>
+                    <h3>Xdead098</h3>
+                    <p class="staff-desc">Gestione del server</p>
+                </div>
+
+                <!--<div class="staff-card">
+                    <img src="assets/images/admin2.jpg" alt="Admin">
+                    <h3>Admin</h3>
+                    <p>Controllo RP</p>
+                </div>
+                <div class="staff-card">
+                    <img src="assets/images/mod.jpg" alt="Moderatore">
+                    <h3>Moderatore</h3>
+                    <p>Supporto giocatori</p>
+                </div>
+            </div>!-->
+        </section>
+
+        <!-- Nuova Sezione: Galleria -->
+        <section id="gallery" class="gallery-section">
+            <h2><i class="fas fa-images"></i> Galleria</h2>
+            <div class="gallery-grid">
+                <img src="assets/images/screenshot1.jpg" alt="Screenshot 1">
+                <img src="assets/images/screenshot2.jpg" alt="Screenshot 2">
+                <img src="assets/images/screenshot3.jpg" alt="Screenshot 3">
+            </div>
+        </section>
+
+        <!-- Nuova Sezione: Donazioni -->
+        <section class="donation-section">
+            <h2><i class="fas fa-hand-holding-heart"></i> Supporta il Server</h2>
+            <p>Aiutaci a mantenere il server attivo!</p>
+            <a href="https://paypal.me/tuoserver" class="donation-btn">
+                <i class="fab fa-paypal"></i> Dona con PayPal
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 NovaCityRP. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
